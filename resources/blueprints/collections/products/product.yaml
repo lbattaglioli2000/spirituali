@@ -1,0 +1,86 @@
+title: Product
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: description
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          type: markdown
+          listable: hidden
+          display: Description
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: image
+        field:
+          mode: grid
+          container: images
+          folder: /
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Image
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: price
+        field:
+          type: money
+          display: Price
+          read_only: false
+          listable: hidden
+          factory: 'numberBetween(20, 50)'
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: product_categories
+        field:
+          type: terms
+          taxonomies:
+            - product_categories
+          display: 'Product Categories'
+          mode: select
+  'Digital Product':
+    display: 'Digital Product'
+    fields:
+      -
+        handle: is_digital_product
+        field:
+          type: toggle
+          display: 'Is Digital Product?'
+      -
+        handle: download_limit
+        field:
+          type: integer
+          display: 'Download Limit'
+          instructions: 'If you''d like to limit the amount if times this product can be downloaded, set it here. Keep it blank if you''d like it to be unlimited.'
+      -
+        handle: downloadable_asset
+        field:
+          type: assets
+          mode: grid
+          display: 'Downloadable Asset'
+          max_files: 1
+          if:
+            is_digital_product: 'equals true'

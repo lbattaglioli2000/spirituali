@@ -1,0 +1,12 @@
+name: 'Luigi Battaglioli'
+super: true
+id: 077f4893-39f2-4e88-a75b-5fa35b145ff0
+password_hash: $2y$10$f7gGIIlRjcyMTfC91TzoI.DAvoF8oj3tRWSFruLo4k7.saLZhavcS
+preferences:
+  collections:
+    products:
+      columns:
+        - image
+        - title
+        - price
+        - slug

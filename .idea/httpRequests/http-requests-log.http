@@ -1,0 +1,13 @@
+GET http://spirituali.test
+Accept: application/json
+
+<> 2021-01-08T042732.200.html
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+###
+

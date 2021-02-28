@@ -1,0 +1,43 @@
+<div class="flex">
+    <div class="mx-auto max-w-4xl p-8">
+        <div class="max-w-md">
+            <h1 class="text-xl font-black">Let's connect!</h1>
+            <p class="font-light">I'd love to hear from if you have questions, or are interested in my services. You can use this form to drop me a line!</p>
+        </div>
+        <div class="bg-white rounded shadow p-8 mt-10">
+            {{ form:contact_me }}
+
+            {{ if success }}
+            <div class="bg-minty text-blue-dark p-4">
+                {{ success }}
+            </div>
+            {{ else }}
+
+            {{ if errors }}
+                <div class="bg-red-dark text-white p-2">
+                    {{ errors }}
+                    {{ value }}<br>
+                    {{ /errors }}
+                </div>
+            {{ /if }}
+
+            {{ fields }}
+                <div class="p-2">
+                    <label>{{ display }}</label>
+                    <div class="p-1">{{ field }}</div>
+                    {{ if error }}
+                    <p class="text-gray-500">{{ error }}</p>
+                    {{ /if }}
+                </div>
+            {{ /fields }}
+
+            <button type="submit">Submit</button>
+
+            {{ /if }}
+
+            {{ /form:contact_me }}
+        </div>
+    </div>
+
+</div>
+

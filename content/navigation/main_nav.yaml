@@ -1,0 +1,14 @@
+title: 'Main Navigation'
+tree:
+  -
+    title: Home
+    url: /
+  -
+    title: Shop
+    url: /shop
+  -
+    title: Schedule
+    url: /schedule
+  -
+    title: Contact
+    url: /contact
