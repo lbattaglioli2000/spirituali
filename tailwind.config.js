@@ -26,7 +26,10 @@ module.exports = {
       extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+        fontWeight: ['hover', 'focus'],
+        borderWidth: ['hover', 'focus'],
+    },
   },
   plugins: [
       require('@tailwindcss/custom-forms')

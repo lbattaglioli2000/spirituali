@@ -9,7 +9,7 @@
 
             {{ if success }}
             <div class="bg-minty text-blue-dark p-4">
-                {{ success }}
+                Your message has been sent! I'll get back to ya as soon as I can!
             </div>
             {{ else }}
 
@@ -23,7 +23,7 @@
 
             {{ fields }}
                 <div class="p-2">
-                    <label>{{ display }}</label>
+                    <label class="text-blue-dark">{{ display }}</label>
                     <div class="p-1">{{ field }}</div>
                     {{ if error }}
                     <p class="text-gray-500">{{ error }}</p>
@@ -31,7 +31,9 @@
                 </div>
             {{ /fields }}
 
-            <button type="submit">Submit</button>
+            <div class="mx-3 mt-4">
+                <button class="text-purple-dark hover:font-bold hover:border-3 border-b-2 border-purple-dark" type="submit">Submit!</button>
+            </div>
 
             {{ /if }}
 
