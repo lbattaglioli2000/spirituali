@@ -25,29 +25,24 @@
                                     {{ /glide:image }}
                                 </a>
 
-                                <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                    <h1 class="text-lg">
-                                        <a class="no-underline hover:underline text-black" href="#">
-                                            {{ title }}
-                                        </a>
-                                    </h1>
-                                    <p class="text-grey-darker text-sm">
-                                        11/1/19
-                                    </p>
-                                </header>
+                                <header class="flex items-center justify-between leading-tight p-4 md:p-4">
+                                    <div>
+                                        <h1 class="text-lg">
+                                            <a class="no-underline hover:underline" href="#">
+                                                {{ title }}
+                                            </a>
+                                        </h1>
+                                        <p class="font-black text-4xl">{{ price }}</p>
+                                    </div>
+                                    <a class="flex items-center text-sm text-blue-light hover:bg-blue-light hover:text-white rounded border-2 px-3 py-2 border-blue-light" href="#">
 
-                                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                                    <a class="flex items-center no-underline hover:underline text-black" href="#">
-                                        <img alt="Placeholder" class="block rounded-full" src="https://picsum.photos/32/32/?random">
-                                        <p class="ml-2 text-sm">
-                                            Author Name
-                                        </p>
+                                        <svg class="h-5 my-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                        </svg>
+
+                                        <p class="my-auto ml-2">Add to bag</p>
                                     </a>
-                                    <a class="no-underline text-grey-darker hover:text-red-dark" href="#">
-                                        <span class="hidden">Like</span>
-                                        <i class="fa fa-heart"></i>
-                                    </a>
-                                </footer>
+                                </header>
 
                             </article>
                             <!-- END Article -->
