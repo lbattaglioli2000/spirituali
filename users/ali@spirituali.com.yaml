@@ -1,7 +1,7 @@
-name: 'Luigi Battaglioli'
+name: Ali
 super: true
 id: 077f4893-39f2-4e88-a75b-5fa35b145ff0
-password_hash: $2y$10$f7gGIIlRjcyMTfC91TzoI.DAvoF8oj3tRWSFruLo4k7.saLZhavcS
+password_hash: $2y$10$vSzgpEe3XdhqYVSqT/buceOp9tCryZqmNvFkPuhk4/0S2jGMU6Wqq
 preferences:
   collections:
     products:
