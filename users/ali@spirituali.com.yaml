@@ -8,5 +8,5 @@ preferences:
       columns:
         - image
         - title
+        - product_categories
         - price
-        - slug

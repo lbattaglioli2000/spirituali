@@ -21,14 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc41e7e-a062-4374-bfe9-ed2d10a02e12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/taxonomies/product_categories/the-essentials.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/taxonomies/product_categories/the-essentials.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contact.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.antlers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/products/amethyst-necklace.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/products/amethyst-necklace.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/products/diamond-necklace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/collections/products/quartz-necklace.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/collections/products/quartz-necklace.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/products/index.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/statamic/forms/fields/text.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/statamic/forms/fields/text.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/statamic/forms/fields/textarea.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/statamic/forms/fields/textarea.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.antlers.html" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.antlers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/ali@spirituali.com.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/users/ali@spirituali.com.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +288,7 @@
       <workItem from="1612650882975" duration="5575000" />
       <workItem from="1613538363023" duration="30412000" />
       <workItem from="1614211216198" duration="6442000" />
-      <workItem from="1614706350529" duration="7047000" />
+      <workItem from="1614706350529" duration="8100000" />
     </task>
     <servers />
   </component>

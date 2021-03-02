@@ -4,7 +4,7 @@ description: 'Clear Quartz enhances psychic abilities. It aids concentration and
 price: 1500
 is_digital_product: false
 updated_by: 077f4893-39f2-4e88-a75b-5fa35b145ff0
-updated_at: 1614062933
+updated_at: 1614719221
 product_categories:
   - crystal-jewelry
 image: IMG_5466.jpg
